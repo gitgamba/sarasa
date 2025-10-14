@@ -1,6 +1,4 @@
-# Tabla de símbolos y operadores en Bash (EDP – T.U.I.A.)
-
-> Guía práctica y didáctica para preparar el 2° parcial y el recuperatorio. Incluye significado, sintaxis correcta, ejemplos con salida esperada y errores típicos.
+# Tabla de símbolos y operadores en Bash
 
 ---
 
