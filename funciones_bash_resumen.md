@@ -1,4 +1,4 @@
-## 🧩 Funciones en Bash — Resumen docente
+## 🧩 Funciones en Bash
 
 ### 🔹 ¿Qué son las funciones?
 Las **funciones** en Bash permiten agrupar comandos relacionados para reutilizarlos en distintas partes de un script. Facilitan la **organización**, **mantenimiento** y **modularidad** del código.
