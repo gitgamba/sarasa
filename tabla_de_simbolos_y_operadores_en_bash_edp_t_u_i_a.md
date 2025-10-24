@@ -163,6 +163,16 @@ Ambas son iguales, solo que los corchetes son una **forma abreviada** más comú
 | `-ge` | Mayor o igual | `[ "$a" -ge "$b" ]` | true si $a ≥ $b |
 | `-le` | Menor o igual | `[ "$a" -le "$b" ]` | true si $a ≤ $b |
 
+| Abreviatura | Palabra en inglés     | Traducción / Significado       |
+|--------------|----------------------|--------------------------------|
+| **lt**       | *less than*          | menor que                     |
+| **le**       | *less or equal*      | menor o igual que             |
+| **eq**       | *equal*              | igual                         |
+| **ne**       | *not equal*          | distinto                      |
+| **gt**       | *greater than*       | mayor que                     |
+| **ge**       | *greater or equal*   | mayor o igual que             |
+
+
 ### 🔹 Operadores de archivos
 | Operador | Qué verifica | Ejemplo | Resultado |
 |-----------|--------------|----------|-------------|
