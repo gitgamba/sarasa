@@ -59,11 +59,15 @@
 
 | Símbolo | Significado | Ejemplo | Salida |
 |---|---|---|---|
-| `$#` | Cantidad de argumentos | `echo $#` (`./s.sh a b`) | `2` |
-| `$@` | Todos los argumentos | `echo $@` | `a b` |
+| `$#` | Cantidad de argumentos | `echo $#` (`./s.sh a b`) | `2` ( Indica el número de argumentos pasados al script o comando.)|
+| `$@` | Todos los argumentos | `echo $@` | `a b` (Contiene todos los argumentos pasados al script o comando como una
+ lista separada por espacios. Es útil para iterar sobre todos los argumen
+tos en un bucle.)|
 | `$0` | Nombre del script | `echo $0` | `./s.sh` |
 | `$1`, `$2` | Arg. posicionales | `echo $1` | Primer argumento |
-| `$?` | Exit status previo | `false; echo $?` | `1` |
+| `$?` | Exit status previo | `false; echo $?` | `1` (código de salida del último comando ejecutado. Un valor de
+ 0 generalmente indica éxito, mientras que un valor distinto de 0 indica
+ un fallo o error.)|
 | `$(( ... ))` | Aritmética | `echo $((5+3))` | `8` |
 
 ---
