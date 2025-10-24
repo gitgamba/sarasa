@@ -1,4 +1,4 @@
-## 🧩 Estructuras de Control en Bash — Versión Simplificada y Didáctica
+## 🧩 Estructuras de Control en Bash
 
 Las **estructuras de control** permiten decidir qué hacer y cuándo hacerlo dentro de un script. En Bash, controlan el **flujo de ejecución** según condiciones, repeticiones o elecciones del usuario.
 
